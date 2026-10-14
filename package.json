@@ -1,0 +1,1 @@
+{ "name": "social-bot-block", "version": "0.1.0", "private": true, "scripts": { "test": "node --test test/", "demo": "node demo.js" } }

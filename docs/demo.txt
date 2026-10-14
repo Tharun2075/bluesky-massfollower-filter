@@ -1,0 +1,44 @@
+$ node demo.js search followback 25
+Run at 2026-10-14T14:49:03.419Z - 23 accounts (search "followback"), threshold 5000
+
+HIDE  @fbpe.eu                                  follows 20,064 accounts
+HIDE  @verylittleworld.bsky.social              follows 17,229 accounts
+HIDE  @kleber-victor.bsky.social                follows 16,999 accounts
+keep  @so7744.bsky.social                       follows 2,487
+keep  @laildaisy.bsky.social                    follows 569
+keep  @hheart.bsky.social                       follows 438
+keep  @patrickofc.bsky.social                   follows 1,629
+keep  @bahanbelanja.bsky.social                 follows 226
+keep  @followbacksdv.bsky.social                follows 553
+keep  @heliosilva07.bsky.social                 follows 623
+keep  @followback100.bsky.social                follows 437
+keep  @soaresbtw.bsky.social                    follows 366
+keep  @cuteneess.bsky.social                    follows 139
+keep  @confidamntial.bsky.social                follows 133
+keep  @farleydawg.bsky.social                   follows 1,553
+keep  @followback.bsky.social                   follows 210
+keep  @followback100per.bsky.social             follows 199
+keep  @ryeonggielf68.bsky.social                follows 80
+keep  @jypiece.swifties.social                  follows 47
+keep  @rocwo.bsky.social                        follows 144
+keep  @etraudmaju.bsky.social                   follows 32
+keep  @flowerciee.bsky.social                   follows 20
+keep  @therosewolf.bsky.social                  follows 88
+
+3 of 23 would be hidden.
+
+$ node demo.js followers bsky.app 20
+Run at 2026-10-14T14:49:04.037Z - 10 accounts (followers "bsky.app"), threshold 5000
+
+keep  @yuuyook.bsky.social                      follows 5
+keep  @ian.denazen.social                       follows 3
+keep  @useforgekit.bsky.social                  follows 17
+keep  @kokomo2j.bsky.social                     follows 2
+keep  @discowaffles.bsky.social                 follows 2
+keep  @luckayy.bsky.social                      follows 85
+keep  @irukazeus.bsky.social                    follows 1
+keep  @aquoxisreviews.bsky.social               follows 4
+keep  @igtanis.bsky.social                      follows 1
+keep  @ghostreaper78.bsky.social                follows 1
+
+0 of 10 would be hidden.

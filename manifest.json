@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Bluesky Mass-Follower Filter",
+  "version": "0.1.0",
+  "description": "Hides Bluesky posts from accounts that follow 5000+ users (follow-back / bot behaviour).",
+  "permissions": ["storage"],
+  "host_permissions": ["https://bsky.app/*", "https://public.api.bsky.app/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://bsky.app/*"],
+      "js": ["lib/core.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_ui": { "page": "options.html", "open_in_tab": false },
+  "action": { "default_popup": "options.html", "default_title": "Mass-Follower Filter" }
+}
